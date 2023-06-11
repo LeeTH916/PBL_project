@@ -15,7 +15,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 from PyQt5.QtGui import *
-form_class = uic.loadUiType("tmp.ui")[0]
+form_class = uic.loadUiType("pbl.ui")[0]
 
 
 from models.experimental import attempt_load
